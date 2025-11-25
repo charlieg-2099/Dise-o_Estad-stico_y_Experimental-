@@ -1,0 +1,952 @@
+
+{
+  "visualizer": "plotly",
+  "data": [
+    {
+      "hovertemplate": "Tipo_Municipio=Rural-C<br>Escolaridad promedio (años)=%{x}<br>Ingreso mensual (MXN)=%{y}<extra></extra>",
+      "legendgroup": "Rural-C",
+      "marker": {
+        "color": "#636efa",
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Rural-C",
+      "orientation": "v",
+      "showlegend": true,
+      "x": {
+        "dtype": "f8",
+        "bdata": "zczMzMzMHEAzMzMzMzMVQDMzMzMzMylAzczMzMzMIECamZmZmZklQJqZmZmZmR1AMzMzMzMzK0CamZmZmZkrQM3MzMzMzClAZmZmZmZmFkDNzMzMzMwlQAAAAAAAACxAzczMzMzMGEAAAAAAAAAnQAAAAAAAABpAZmZmZmZmJkAzMzMzMzMfQGZmZmZmZidAZmZmZmZmGEBmZmZmZmYeQAAAAAAAACRAmpmZmZmZJ0BmZmZmZmYnQM3MzMzMzBhAAAAAAAAAKUDNzMzMzMwhQAAAAAAAACZAzczMzMzMIUAzMzMzMzMXQDMzMzMzMyhAmpmZmZmZIkCamZmZmZkjQJqZmZmZmSlAZmZmZmZmIUDNzMzMzMwqQM3MzMzMzCFAAAAAAAAAJEBmZmZmZmYpQGZmZmZmZhpAAAAAAAAAJUDNzMzMzMwlQJqZmZmZmSBAZmZmZmZmJUAzMzMzMzMVQAAAAAAAACtAzczMzMzMFEBmZmZmZmYqQGZmZmZmZiVAzczMzMzMIUBmZmZmZmYYQJqZmZmZmSBAmpmZmZmZIEBmZmZmZmYjQGZmZmZmZhpAAAAAAAAAKEBmZmZmZmYlQAAAAAAAABZAAAAAAAAAJECamZmZmZkZQM3MzMzMzBxAAAAAAAAAHkDNzMzMzMwYQDMzMzMzMylAzczMzMzMKUAzMzMzMzMgQM3MzMzMzCBAMzMzMzMzFUDNzMzMzMwWQGZmZmZmZhZAZmZmZmZmHkBmZmZmZmYjQAAAAAAAACJAmpmZmZmZIEAzMzMzMzMrQDMzMzMzMxdAzczMzMzMKECamZmZmZklQM3MzMzMzBhAMzMzMzMzIUDNzMzMzMweQJqZmZmZmSlAAAAAAAAAFkAzMzMzMzMiQJqZmZmZmStAzczMzMzMKkDNzMzMzMwoQAAAAAAAABhAmpmZmZmZH0AAAAAAAAAsQDMzMzMzMyJAmpmZmZmZHUCamZmZmZknQAAAAAAAABZAzczMzMzMJ0CamZmZmZkXQAAAAAAAABxAmpmZmZmZI0DNzMzMzMweQGZmZmZmZiJAmpmZmZmZKUAzMzMzMzMdQM3MzMzMzCFAzczMzMzMK0AzMzMzMzMhQDMzMzMzMylAMzMzMzMzF0AAAAAAAAAhQGZmZmZmZilAZmZmZmZmK0DNzMzMzMwoQJqZmZmZmSpAMzMzMzMzI0DNzMzMzMweQGZmZmZmZhxAzczMzMzMIEBmZmZmZmYrQAAAAAAAABpAAAAAAAAAKEBmZmZmZmYpQAAAAAAAABZAzczMzMzMJ0AAAAAAAAApQAAAAAAAABpAZmZmZmZmFEAAAAAAAAAnQAAAAAAAAB5AZmZmZmZmJkCamZmZmZkVQGZmZmZmZiFAzczMzMzMFkAAAAAAAAApQAAAAAAAAChAmpmZmZmZIEBmZmZmZmYpQGZmZmZmZiFAzczMzMzMHkBmZmZmZmYmQDMzMzMzMx1AmpmZmZmZHUBmZmZmZmYYQGZmZmZmZiRAMzMzMzMzKEAAAAAAAAAcQJqZmZmZmSpAZmZmZmZmI0AAAAAAAAAqQJqZmZmZmRtAzczMzMzMGkAAAAAAAAAiQJqZmZmZmRdAMzMzMzMzIUAzMzMzMzMiQDMzMzMzMxVAAAAAAAAAKkAAAAAAAAAgQM3MzMzMzBpAAAAAAAAAFkBmZmZmZmYgQDMzMzMzMyNAMzMzMzMzHUAzMzMzMzMgQGZmZmZmZhRAzczMzMzMGkDNzMzMzMwmQDMzMzMzMyhAZmZmZmZmGEDNzMzMzMwhQM3MzMzMzClAmpmZmZmZFUCamZmZmZkqQGZmZmZmZiVAAAAAAAAAGEA="
+      },
+      "xaxis": "x",
+      "y": {
+        "dtype": "i2",
+        "bdata": "cCOSHdpePViMX5UsSjPDVb1HmRXtPmAeWiCjKyJKqCSvFswqZUfXYBwhOkpWTi0veFZLFcRZ8D+ZRX0diVWwNGlQ4V3+R59PrULhVfwnrD4VI4EvAU2iULlWehP8GsRXOSDWPjw1GTsOOT5C01C8NFI21BZ/GZxJ5kVsHIYej1j9FC8VDU5WMo5RxxG8P89KlULlFCo5BBtnW/QduxaiPP0UE0/RVZI2lDRTJLFcJhlkRIIyxTuILcNMsxXgFQ4k9SmKE5A/QSQfUIYofC7bQfs7wmDvNqldbTryRR5H+1NPIGxFrCNGUh1MiUCxX3s+2EPPPE9Ejj30JFwcMDhRGRFFlisKGsMyOzJYWIc6SWHOEuY5IxvAJSNEvBj2VP86SEDvHEEagVhLM5U9BRYpE9Q0AjxeOKIs7SUQK7cSrTjVMXpBylPMWnc/chivToY5zTY2RR44cxc="
+      },
+      "yaxis": "y",
+      "type": "scatter"
+    },
+    {
+      "hovertemplate": "<b>OLS trendline</b><br>Ingreso_Promedio_Mensual (MXN) = 221.565 * Promedio_Escolaridad (años) + 12223.9<br>R<sup>2</sup>=0.010576<br><br>Tipo_Municipio=Rural-C<br>Escolaridad promedio (años)=%{x}<br>Ingreso mensual (MXN)=%{y} <b>(trend)</b><extra></extra>",
+      "legendgroup": "Rural-C",
+      "marker": {
+        "color": "#636efa",
+        "symbol": "circle"
+      },
+      "mode": "lines",
+      "name": "Rural-C",
+      "showlegend": false,
+      "x": {
+        "dtype": "f8",
+        "bdata": "ZmZmZmZmFEBmZmZmZmYUQM3MzMzMzBRAMzMzMzMzFUAzMzMzMzMVQDMzMzMzMxVAMzMzMzMzFUCamZmZmZkVQJqZmZmZmRVAAAAAAAAAFkAAAAAAAAAWQAAAAAAAABZAAAAAAAAAFkAAAAAAAAAWQGZmZmZmZhZAZmZmZmZmFkDNzMzMzMwWQM3MzMzMzBZAMzMzMzMzF0AzMzMzMzMXQDMzMzMzMxdAmpmZmZmZF0CamZmZmZkXQAAAAAAAABhAAAAAAAAAGEBmZmZmZmYYQGZmZmZmZhhAZmZmZmZmGEBmZmZmZmYYQM3MzMzMzBhAzczMzMzMGEDNzMzMzMwYQM3MzMzMzBhAmpmZmZmZGUAAAAAAAAAaQAAAAAAAABpAAAAAAAAAGkBmZmZmZmYaQGZmZmZmZhpAzczMzMzMGkDNzMzMzMwaQM3MzMzMzBpAmpmZmZmZG0AAAAAAAAAcQAAAAAAAABxAZmZmZmZmHEDNzMzMzMwcQM3MzMzMzBxAMzMzMzMzHUAzMzMzMzMdQDMzMzMzMx1AmpmZmZmZHUCamZmZmZkdQJqZmZmZmR1AAAAAAAAAHkAAAAAAAAAeQGZmZmZmZh5AZmZmZmZmHkDNzMzMzMweQM3MzMzMzB5AzczMzMzMHkDNzMzMzMweQDMzMzMzMx9AmpmZmZmZH0AAAAAAAAAgQDMzMzMzMyBAMzMzMzMzIEBmZmZmZmYgQJqZmZmZmSBAmpmZmZmZIECamZmZmZkgQJqZmZmZmSBAmpmZmZmZIEDNzMzMzMwgQM3MzMzMzCBAzczMzMzMIEAAAAAAAAAhQDMzMzMzMyFAMzMzMzMzIUAzMzMzMzMhQGZmZmZmZiFAZmZmZmZmIUBmZmZmZmYhQM3MzMzMzCFAzczMzMzMIUDNzMzMzMwhQM3MzMzMzCFAzczMzMzMIUDNzMzMzMwhQAAAAAAAACJAAAAAAAAAIkAzMzMzMzMiQDMzMzMzMyJAMzMzMzMzIkBmZmZmZmYiQJqZmZmZmSJAMzMzMzMzI0AzMzMzMzMjQGZmZmZmZiNAZmZmZmZmI0BmZmZmZmYjQJqZmZmZmSNAmpmZmZmZI0AAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEBmZmZmZmYkQAAAAAAAACVAZmZmZmZmJUBmZmZmZmYlQGZmZmZmZiVAZmZmZmZmJUCamZmZmZklQJqZmZmZmSVAzczMzMzMJUDNzMzMzMwlQAAAAAAAACZAZmZmZmZmJkBmZmZmZmYmQGZmZmZmZiZAzczMzMzMJkAAAAAAAAAnQAAAAAAAACdAZmZmZmZmJ0BmZmZmZmYnQJqZmZmZmSdAmpmZmZmZJ0DNzMzMzMwnQM3MzMzMzCdAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAMzMzMzMzKEAzMzMzMzMoQDMzMzMzMyhAzczMzMzMKEDNzMzMzMwoQM3MzMzMzChAAAAAAAAAKUAAAAAAAAApQAAAAAAAAClAMzMzMzMzKUAzMzMzMzMpQDMzMzMzMylAZmZmZmZmKUBmZmZmZmYpQGZmZmZmZilAZmZmZmZmKUCamZmZmZkpQJqZmZmZmSlAmpmZmZmZKUDNzMzMzMwpQM3MzMzMzClAzczMzMzMKUAAAAAAAAAqQAAAAAAAACpAZmZmZmZmKkCamZmZmZkqQJqZmZmZmSpAmpmZmZmZKkDNzMzMzMwqQM3MzMzMzCpAAAAAAAAAK0AzMzMzMzMrQDMzMzMzMytAZmZmZmZmK0BmZmZmZmYrQJqZmZmZmStAmpmZmZmZK0DNzMzMzMwrQAAAAAAAACxAAAAAAAAALEA="
+      },
+      "xaxis": "x",
+      "y": {
+        "dtype": "f8",
+        "bdata": "RHdHC/MUykBEd0cL8xTKQFYY+REHIMpAaLmqGBsrykBouaoYGyvKQGi5qhgbK8pAaLmqGBsrykB6WlwfLzbKQHpaXB8vNspAjPsNJkNBykCM+w0mQ0HKQIz7DSZDQcpAjPsNJkNBykCM+w0mQ0HKQJ6cvyxXTMpAnpy/LFdMykCwPXEza1fKQLA9cTNrV8pAwd4iOn9iykDB3iI6f2LKQMHeIjp/YspA03/UQJNtykDTf9RAk23KQOUghkeneMpA5SCGR6d4ykD3wTdOu4PKQPfBN067g8pA98E3TruDykD3wTdOu4PKQAlj6VTPjspACWPpVM+OykAJY+lUz47KQAlj6VTPjspALKVMYvekykA+Rv5oC7DKQD5G/mgLsMpAPkb+aAuwykBQ569vH7vKQFDnr28fu8pAYohhdjPGykBiiGF2M8bKQGKIYXYzxspAhsrEg1vcykCYa3aKb+fKQJhrdopv58pAqQwokYPyykC7rdmXl/3KQLut2ZeX/cpAzU6LnqsIy0DNToueqwjLQM1Oi56rCMtA3+88pb8Ty0Df7zylvxPLQN/vPKW/E8tA8ZDuq9Mey0DxkO6r0x7LQAIyoLLnKctAAjKgsucpy0AU01G5+zTLQBTTUbn7NMtAFNNRufs0y0AU01G5+zTLQCZ0A8APQMtAOBW1xiNLy0BKtmbNN1bLQFxXGNRLYctAXFcY1Ethy0Bu+MnaX2zLQICZe+Fzd8tAgJl74XN3y0CAmXvhc3fLQICZe+Fzd8tAgJl74XN3y0CSOi3oh4LLQJI6LeiHgstAkjot6IeCy0Cj297um43LQLV8kPWvmMtAtXyQ9a+Yy0C1fJD1r5jLQMcdQvzDo8tAxx1C/MOjy0DHHUL8w6PLQOtfpQnsuctA61+lCey5y0DrX6UJ7LnLQOtfpQnsuctA61+lCey5y0DrX6UJ7LnLQPwAVxAAxctA/ABXEADFy0AOoggXFNDLQA6iCBcU0MtADqIIFxTQy0AgQ7odKNvLQDLkayQ85stAaMeAOHgHzEBox4A4eAfMQHloMj+MEsxAeWgyP4wSzEB5aDI/jBLMQIwJ5EWgHcxAjAnkRaAdzECvS0dTyDPMQK9LR1PIM8xAr0tHU8gzzEDSjapg8EnMQAhxv3Qsa8xALLMiglSBzEAssyKCVIHMQCyzIoJUgcxALLMiglSBzEA+VNSIaIzMQD5U1IhojMxAUPWFj3yXzEBQ9YWPfJfMQGKWN5aQosxAhdiao7i4zECF2JqjuLjMQIXYmqO4uMxAqRr+sODOzEC7u6+39NnMQLu7r7f02cxA3v0SxRzwzEDe/RLFHPDMQPCexMsw+8xA8J7EyzD7zEACQHbSRAbNQAJAdtJEBs1AFOEn2VgRzUAU4SfZWBHNQBThJ9lYEc1AJoLZ32wczUAmgtnfbBzNQCaC2d9sHM1AXGXu86g9zUBcZe7zqD3NQFxl7vOoPc1AbQag+rxIzUBtBqD6vEjNQG0GoPq8SM1Af6dRAdFTzUB/p1EB0VPNQH+nUQHRU81AkUgDCOVezUCRSAMI5V7NQJFIAwjlXs1AkUgDCOVezUCj6bQO+WnNQKPptA75ac1Ao+m0DvlpzUC1imYVDXXNQLWKZhUNdc1AtYpmFQ11zUDGKxgcIYDNQMYrGBwhgM1A6m17KUmWzUD8Di0wXaHNQPwOLTBdoc1A/A4tMF2hzUAOsN42cazNQA6w3jZxrM1AIFGQPYW3zUAy8kFEmcLNQDLyQUSZws1AQ5PzSq3NzUBDk/NKrc3NQFY0pVHB2M1AVjSlUcHYzUBn1VZY1ePNQHl2CF/p7s1AeXYIX+nuzUA="
+      },
+      "yaxis": "y",
+      "type": "scatter"
+    },
+    {
+      "hovertemplate": "Tipo_Municipio=Semiurbano-B<br>Escolaridad promedio (años)=%{x}<br>Ingreso mensual (MXN)=%{y}<extra></extra>",
+      "legendgroup": "Semiurbano-B",
+      "marker": {
+        "color": "#EF553B",
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Semiurbano-B",
+      "orientation": "v",
+      "showlegend": true,
+      "x": {
+        "dtype": "f8",
+        "bdata": "mpmZmZmZJkCamZmZmZkmQGZmZmZmZilAMzMzMzMzKUAAAAAAAAAsQM3MzMzMzCNAmpmZmZmZIUAzMzMzMzMhQJqZmZmZmSFAmpmZmZmZHUBmZmZmZmYWQM3MzMzMzCtAAAAAAAAAHkAzMzMzMzMpQM3MzMzMzCRAMzMzMzMzKUBmZmZmZmYhQGZmZmZmZiJAAAAAAAAAHkDNzMzMzMwjQGZmZmZmZilAMzMzMzMzIkBmZmZmZmYrQJqZmZmZmSNAZmZmZmZmK0CamZmZmZkdQDMzMzMzMyRAMzMzMzMzHUAzMzMzMzMfQGZmZmZmZiZAZmZmZmZmJEAAAAAAAAAUQJqZmZmZmSZAAAAAAAAAFkCamZmZmZkmQAAAAAAAACxAAAAAAAAAJkCamZmZmZknQDMzMzMzMyNAAAAAAAAAI0AAAAAAAAAoQGZmZmZmZilAZmZmZmZmK0CamZmZmZknQDMzMzMzMxlAMzMzMzMzKkBmZmZmZmYmQDMzMzMzMyRAMzMzMzMzJEBmZmZmZmYkQDMzMzMzMyZAZmZmZmZmGEAzMzMzMzMrQM3MzMzMzCdAAAAAAAAAFECamZmZmZklQGZmZmZmZhxAAAAAAAAAJkCamZmZmZkXQAAAAAAAACRAMzMzMzMzJUCamZmZmZkbQDMzMzMzMyFAAAAAAAAAGECamZmZmZklQAAAAAAAACBAmpmZmZmZGUCamZmZmZkmQDMzMzMzMyVAMzMzMzMzKECamZmZmZkZQM3MzMzMzClAMzMzMzMzIECamZmZmZkoQM3MzMzMzCpAZmZmZmZmHkBmZmZmZmYnQGZmZmZmZiNAmpmZmZmZF0AAAAAAAAArQJqZmZmZmSBAMzMzMzMzHUBmZmZmZmYpQAAAAAAAACZAMzMzMzMzKEAAAAAAAAAqQM3MzMzMzBZAMzMzMzMzH0AAAAAAAAAhQM3MzMzMzCdAZmZmZmZmHkAAAAAAAAAlQJqZmZmZmShAZmZmZmZmIUDNzMzMzMwYQGZmZmZmZiZAMzMzMzMzHUCamZmZmZkrQGZmZmZmZilAzczMzMzMHkAAAAAAAAAqQM3MzMzMzBpAZmZmZmZmHECamZmZmZkmQM3MzMzMzBhAZmZmZmZmJEDNzMzMzMwiQGZmZmZmZidAzczMzMzMJ0AzMzMzMzMnQDMzMzMzMydAZmZmZmZmGkCamZmZmZkfQDMzMzMzMxtAZmZmZmZmJUBmZmZmZmYUQM3MzMzMzCJAzczMzMzMJkAzMzMzMzMZQAAAAAAAACtAAAAAAAAAJEDNzMzMzMwmQJqZmZmZmSVAAAAAAAAAKECamZmZmZkbQAAAAAAAACVAmpmZmZmZHUCamZmZmZkqQM3MzMzMzCJAmpmZmZmZF0DNzMzMzMwWQDMzMzMzMyZAmpmZmZmZGUAzMzMzMzMXQDMzMzMzMxlAzczMzMzMJ0BmZmZmZmYkQAAAAAAAABRAAAAAAAAAFkBmZmZmZmYcQGZmZmZmZilAMzMzMzMzHUAAAAAAAAAoQM3MzMzMzCtAzczMzMzMKUDNzMzMzMweQGZmZmZmZhpAzczMzMzMJ0CamZmZmZkhQDMzMzMzMydAmpmZmZmZK0AzMzMzMzMXQM3MzMzMzChAAAAAAAAAJ0CamZmZmZkjQM3MzMzMzB5AZmZmZmZmFkAAAAAAAAAnQGZmZmZmZiBAAAAAAAAALECamZmZmZkhQJqZmZmZmRVAMzMzMzMzF0CamZmZmZkXQA=="
+      },
+      "xaxis": "x",
+      "y": {
+        "dtype": "i2",
+        "bdata": "RkchPSQlj1JgQataOzUVGUlcVCLYMEhVdhr3O9M9BDihESxKfhvMRkRbxzw9IAJBJjQAMRZCXzUWLxgqcBg+S7FL8zhsNBM0KSZGFrkR7zawRihGJxtxHppMilcNTCdb2xdmInJEwUAAQBgsGSSQFfY8fUGGUodfBRwkI0s52lKEYf9YAhz0VMQmaSoXSyYX2B79J4xTshcRQyccjTsuG2sbs0pwS+MZ8RRpVz8ZczpYYFtRB0OQU7pArSseLKpf5k7LJVoWu17BIsdftSBiOS8lwiTnUppbYkcVLmU6QkjeRgUvfmBXVR8/UyX7Jho8qkzVQbpE6lxkT9UqO1AeXSgcQzF+HcYXpzSwHlchVRVxGyYTJS4bVJAk1SedPdAnlVALI4JZN1reJplXMU45VylHJxqXPUtK9zQ9UeI4cj1AQhxRth/wJw=="
+      },
+      "yaxis": "y",
+      "type": "scatter"
+    },
+    {
+      "hovertemplate": "<b>OLS trendline</b><br>Ingreso_Promedio_Mensual (MXN) = 140.751 * Promedio_Escolaridad (años) + 13216.5<br>R<sup>2</sup>=0.003899<br><br>Tipo_Municipio=Semiurbano-B<br>Escolaridad promedio (años)=%{x}<br>Ingreso mensual (MXN)=%{y} <b>(trend)</b><extra></extra>",
+      "legendgroup": "Semiurbano-B",
+      "marker": {
+        "color": "#EF553B",
+        "symbol": "circle"
+      },
+      "mode": "lines",
+      "name": "Semiurbano-B",
+      "showlegend": false,
+      "x": {
+        "dtype": "f8",
+        "bdata": "AAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAZmZmZmZmFECamZmZmZkVQAAAAAAAABZAAAAAAAAAFkBmZmZmZmYWQGZmZmZmZhZAzczMzMzMFkDNzMzMzMwWQDMzMzMzMxdAMzMzMzMzF0AzMzMzMzMXQJqZmZmZmRdAmpmZmZmZF0CamZmZmZkXQJqZmZmZmRdAAAAAAAAAGEBmZmZmZmYYQM3MzMzMzBhAzczMzMzMGEAzMzMzMzMZQDMzMzMzMxlAMzMzMzMzGUCamZmZmZkZQJqZmZmZmRlAmpmZmZmZGUBmZmZmZmYaQGZmZmZmZhpAzczMzMzMGkAzMzMzMzMbQJqZmZmZmRtAmpmZmZmZG0BmZmZmZmYcQGZmZmZmZhxAZmZmZmZmHEAzMzMzMzMdQDMzMzMzMx1AMzMzMzMzHUAzMzMzMzMdQJqZmZmZmR1AmpmZmZmZHUCamZmZmZkdQAAAAAAAAB5AAAAAAAAAHkBmZmZmZmYeQGZmZmZmZh5AzczMzMzMHkDNzMzMzMweQM3MzMzMzB5AMzMzMzMzH0AzMzMzMzMfQJqZmZmZmR9AAAAAAAAAIEAzMzMzMzMgQGZmZmZmZiBAmpmZmZmZIEAAAAAAAAAhQDMzMzMzMyFAMzMzMzMzIUBmZmZmZmYhQGZmZmZmZiFAmpmZmZmZIUCamZmZmZkhQJqZmZmZmSFAmpmZmZmZIUAzMzMzMzMiQGZmZmZmZiJAzczMzMzMIkDNzMzMzMwiQM3MzMzMzCJAAAAAAAAAI0AzMzMzMzMjQGZmZmZmZiNAmpmZmZmZI0CamZmZmZkjQM3MzMzMzCNAzczMzMzMI0AAAAAAAAAkQAAAAAAAACRAMzMzMzMzJEAzMzMzMzMkQDMzMzMzMyRAZmZmZmZmJEBmZmZmZmYkQGZmZmZmZiRAZmZmZmZmJEDNzMzMzMwkQAAAAAAAACVAAAAAAAAAJUAzMzMzMzMlQDMzMzMzMyVAZmZmZmZmJUCamZmZmZklQJqZmZmZmSVAmpmZmZmZJUAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAzMzMzMzMmQDMzMzMzMyZAZmZmZmZmJkBmZmZmZmYmQGZmZmZmZiZAmpmZmZmZJkCamZmZmZkmQJqZmZmZmSZAmpmZmZmZJkCamZmZmZkmQJqZmZmZmSZAzczMzMzMJkDNzMzMzMwmQAAAAAAAACdAAAAAAAAAJ0AzMzMzMzMnQDMzMzMzMydAMzMzMzMzJ0BmZmZmZmYnQGZmZmZmZidAmpmZmZmZJ0CamZmZmZknQM3MzMzMzCdAzczMzMzMJ0DNzMzMzMwnQM3MzMzMzCdAzczMzMzMJ0AAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAzMzMzMzMoQDMzMzMzMyhAmpmZmZmZKECamZmZmZkoQM3MzMzMzChAMzMzMzMzKUAzMzMzMzMpQDMzMzMzMylAZmZmZmZmKUBmZmZmZmYpQGZmZmZmZilAZmZmZmZmKUBmZmZmZmYpQGZmZmZmZilAzczMzMzMKUDNzMzMzMwpQAAAAAAAACpAAAAAAAAAKkAzMzMzMzMqQJqZmZmZmSpAzczMzMzMKkAAAAAAAAArQAAAAAAAACtAMzMzMzMzK0BmZmZmZmYrQGZmZmZmZitAZmZmZmZmK0CamZmZmZkrQJqZmZmZmStAzczMzMzMK0DNzMzMzMwrQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQA=="
+      },
+      "xaxis": "x",
+      "y": {
+        "dtype": "f8",
+        "bdata": "1hY2vSQwy0DWFja9JDDLQNYWNr0kMMtAcpKmWi43y0BHBfgyS0zLQOSAaNBUU8tA5IBo0FRTy0CA/NhtXlrLQID82G1eWstAHHhJC2hhy0AceEkLaGHLQLnzuahxaMtAufO5qHFoy0C587mocWjLQFVvKkZ7b8tAVW8qRntvy0BVbypGe2/LQFVvKkZ7b8tA8uqa44R2y0COZguBjn3LQCriex6YhMtAKuJ7HpiEy0DGXey7oYvLQMZd7Luhi8tAxl3su6GLy0Bj2VxZq5LLQGPZXFmrkstAY9lcWauSy0Cc0D2UvqDLQJzQPZS+oMtAOEyuMciny0DUxx7P0a7LQHFDj2zbtctAcUOPbNu1y0CpOnCn7sPLQKk6cKfuw8tAqTpwp+7Dy0DiMVHiAdLLQOIxUeIB0stA4jFR4gHSy0DiMVHiAdLLQH6twX8L2ctAfq3BfwvZy0B+rcF/C9nLQBspMh0V4MtAGykyHRXgy0C3pKK6HufLQLekoroe58tAVCATWCjuy0BUIBNYKO7LQFQgE1go7stA8JuD9TH1y0Dwm4P1MfXLQIwX9JI7/MtAKZNkMEUDzEDFDtXNTgrMQGGKRWtYEcxA/gW2CGIYzEA2/ZZDdSbMQNN4B+F+LcxA03gH4X4tzEBv9Hd+iDTMQG/0d36INMxADHDoG5I7zEAMcOgbkjvMQAxw6BuSO8xADHDoG5I7zEDg4jn0rlDMQH1eqpG4V8xAtlWLzMtlzEC2VYvMy2XMQLZVi8zLZcxAUtH7adVszEDuTGwH33PMQIvI3KToesxAJ0RNQvKBzEAnRE1C8oHMQMS/vd/7iMxAxL+93/uIzEBgOy59BZDMQGA7Ln0FkMxA/LaeGg+XzED8tp4aD5fMQPy2nhoPl8xAmDIPuBiezECYMg+4GJ7MQJgyD7gYnsxAmDIPuBiezEDRKfDyK6zMQG6lYJA1s8xAbqVgkDWzzEAKIdEtP7rMQAoh0S0/usxAppxBy0jBzEBDGLJoUsjMQEMYsmhSyMxAQxiyaFLIzEB7D5OjZdbMQHsPk6Nl1sxAew+To2XWzEAYiwNBb93MQBiLA0Fv3cxAtAZ03njkzEC0BnTeeOTMQLQGdN545MxAUILke4LrzEBQguR7guvMQFCC5HuC68xAUILke4LrzEBQguR7guvMQFCC5HuC68xA7f1UGYzyzEDt/VQZjPLMQIl5xbaV+cxAiXnFtpX5zEAm9TVUnwDNQCb1NVSfAM1AJvU1VJ8AzUDCcKbxqAfNQMJwpvGoB81AXuwWj7IOzUBe7BaPsg7NQPtnhyy8Fc1A+2eHLLwVzUD7Z4csvBXNQPtnhyy8Fc1A+2eHLLwVzUCX4/fJxRzNQJfj98nFHM1Al+P3ycUczUAzX2hnzyPNQDNfaGfPI81AbFZJouIxzUBsVkmi4jHNQAjSuT/sOM1AQcmaev9GzUBByZp6/0bNQEHJmnr/Rs1A3UQLGAlOzUDdRAsYCU7NQN1ECxgJTs1A3UQLGAlOzUDdRAsYCU7NQN1ECxgJTs1AFjzsUhxczUAWPOxSHFzNQLK3XPAlY81Asrdc8CVjzUBPM82NL2rNQIgqrshCeM1AJKYeZkx/zUDAIY8DVobNQMAhjwNWhs1AXZ3/oF+NzUD5GHA+aZTNQPkYcD5plM1A+RhwPmmUzUCVlODbcpvNQJWU4Ntym81AMhBReXyizUAyEFF5fKLNQM6LwRaGqc1AzovBFoapzUDOi8EWhqnNQA=="
+      },
+      "yaxis": "y",
+      "type": "scatter"
+    },
+    {
+      "hovertemplate": "Tipo_Municipio=Urbano-A<br>Escolaridad promedio (años)=%{x}<br>Ingreso mensual (MXN)=%{y}<extra></extra>",
+      "legendgroup": "Urbano-A",
+      "marker": {
+        "color": "#00cc96",
+        "symbol": "circle"
+      },
+      "mode": "markers",
+      "name": "Urbano-A",
+      "orientation": "v",
+      "showlegend": true,
+      "x": {
+        "dtype": "f8",
+        "bdata": "ZmZmZmZmFkBmZmZmZmYlQM3MzMzMzCtAAAAAAAAAKkCamZmZmZkkQAAAAAAAACxAmpmZmZmZI0CamZmZmZkqQJqZmZmZmShAzczMzMzMFECamZmZmZkXQAAAAAAAACxAMzMzMzMzK0BmZmZmZmYkQGZmZmZmZilAMzMzMzMzJkAAAAAAAAAWQAAAAAAAACRAZmZmZmZmKEBmZmZmZmYoQDMzMzMzMxtAZmZmZmZmJEDNzMzMzMwUQM3MzMzMzBpAZmZmZmZmKUBmZmZmZmYiQM3MzMzMzBRAZmZmZmZmIkCamZmZmZkVQGZmZmZmZiRAzczMzMzMHEAAAAAAAAAeQM3MzMzMzBpAZmZmZmZmKUCamZmZmZkbQDMzMzMzMydAZmZmZmZmGkAzMzMzMzMlQAAAAAAAACRAAAAAAAAAKUAAAAAAAAAkQDMzMzMzMyhAzczMzMzMKUAzMzMzMzMlQAAAAAAAABZAMzMzMzMzKECamZmZmZkpQM3MzMzMzCJAAAAAAAAAHkBmZmZmZmYrQGZmZmZmZhhAmpmZmZmZJEDNzMzMzMwhQDMzMzMzMx9AZmZmZmZmJ0CamZmZmZkbQDMzMzMzMyFAMzMzMzMzIUAzMzMzMzMiQJqZmZmZmRdAZmZmZmZmGkDNzMzMzMwpQAAAAAAAACJAZmZmZmZmI0AAAAAAAAAoQM3MzMzMzBhAMzMzMzMzFUCamZmZmZkmQDMzMzMzMyBAAAAAAAAAKUAAAAAAAAArQM3MzMzMzB5AMzMzMzMzJUCamZmZmZkfQAAAAAAAACtAAAAAAAAAI0CamZmZmZkgQM3MzMzMzBxAAAAAAAAAFkCamZmZmZkXQJqZmZmZmSZAzczMzMzMKkBmZmZmZmYrQJqZmZmZmSNAMzMzMzMzIUDNzMzMzMwlQAAAAAAAACFAzczMzMzMGkDNzMzMzMwcQJqZmZmZmStAZmZmZmZmIEBmZmZmZmYjQGZmZmZmZiVAMzMzMzMzHUCamZmZmZkpQM3MzMzMzCVAzczMzMzMJkAAAAAAAAAhQGZmZmZmZidAAAAAAAAAJUAAAAAAAAAiQGZmZmZmZiFAzczMzMzMHEDNzMzMzMwcQM3MzMzMzCBAMzMzMzMzF0CamZmZmZkqQM3MzMzMzCtAmpmZmZmZJ0AAAAAAAAAYQM3MzMzMzCJAzczMzMzMGkAAAAAAAAAiQGZmZmZmZiRAAAAAAAAAHkCamZmZmZkfQGZmZmZmZiBAAAAAAAAAIkCamZmZmZkmQM3MzMzMzClAAAAAAAAAFkAAAAAAAAAqQDMzMzMzMyZAmpmZmZmZKkBmZmZmZmYaQDMzMzMzMylAmpmZmZmZJ0AzMzMzMzMbQM3MzMzMzBhAZmZmZmZmIkBmZmZmZmYiQGZmZmZmZiZAAAAAAAAAIkDNzMzMzMwaQM3MzMzMzB5AMzMzMzMzG0DNzMzMzMwkQJqZmZmZmSRAmpmZmZmZJEDNzMzMzMwgQJqZmZmZmRdAmpmZmZmZIkAzMzMzMzMVQDMzMzMzMxVAmpmZmZmZF0DNzMzMzMweQJqZmZmZmSdAzczMzMzMFkAzMzMzMzMZQM3MzMzMzClAMzMzMzMzFUAzMzMzMzMgQGZmZmZmZilAZmZmZmZmIkAAAAAAAAAjQDMzMzMzMyBAzczMzMzMIkAAAAAAAAAaQAAAAAAAACpAAAAAAAAAI0AzMzMzMzMlQM3MzMzMzBhAMzMzMzMzG0AAAAAAAAAnQA=="
+      },
+      "xaxis": "x",
+      "y": {
+        "dtype": "i2",
+        "bdata": "vy5GQN5YT0xFXE5VuzOmETowelgdRXcTt1j6Vrolry/LR5hFPShXMX9MLjLrMLpCOB/qIXBIn1aMFZ5BLjhyHicYd0iWLNpegFxiUURYzlsjVwwl70mgL3Y/aEBRINFFNiENGHZHb0tGQRM9gBUoU/4WCkflP1cy/iyvYAw2Uib+LylMWF/cJyVY5VPvNd1VCV9JTUZS0E0xRd1ae0aTI5MbaRqbVvkuki/fLTcyyVzxXqxNfiMXG0ca8j4gWokoj0TFVtk90F0bNPAUR1SVYd9DWjGRHMwwlhmhPlxWTkuaIGxT0SHlEa8ZqhG3Ed0jNjAfE95NbCAzE3g79DAQMA5EnEV4I1UcECJmNVBG4VRUFV8vlz5GNxZRkVslFLIm3kOWYbQnTknVXEgVQEGvMgItrzJuQnZaNijbJYxVVyGZXQEfJSuLHg=="
+      },
+      "yaxis": "y",
+      "type": "scatter"
+    },
+    {
+      "hovertemplate": "<b>OLS trendline</b><br>Ingreso_Promedio_Mensual (MXN) = -237.171 * Promedio_Escolaridad (años) + 17086.9<br>R<sup>2</sup>=0.010218<br><br>Tipo_Municipio=Urbano-A<br>Escolaridad promedio (años)=%{x}<br>Ingreso mensual (MXN)=%{y} <b>(trend)</b><extra></extra>",
+      "legendgroup": "Urbano-A",
+      "marker": {
+        "color": "#00cc96",
+        "symbol": "circle"
+      },
+      "mode": "lines",
+      "name": "Urbano-A",
+      "showlegend": false,
+      "x": {
+        "dtype": "f8",
+        "bdata": "zczMzMzMFEDNzMzMzMwUQM3MzMzMzBRAMzMzMzMzFUAzMzMzMzMVQDMzMzMzMxVAMzMzMzMzFUCamZmZmZkVQAAAAAAAABZAAAAAAAAAFkAAAAAAAAAWQAAAAAAAABZAZmZmZmZmFkDNzMzMzMwWQDMzMzMzMxdAmpmZmZmZF0CamZmZmZkXQJqZmZmZmRdAmpmZmZmZF0CamZmZmZkXQAAAAAAAABhAZmZmZmZmGEDNzMzMzMwYQM3MzMzMzBhAzczMzMzMGEAzMzMzMzMZQAAAAAAAABpAZmZmZmZmGkBmZmZmZmYaQGZmZmZmZhpAzczMzMzMGkDNzMzMzMwaQM3MzMzMzBpAzczMzMzMGkDNzMzMzMwaQDMzMzMzMxtAMzMzMzMzG0AzMzMzMzMbQDMzMzMzMxtAmpmZmZmZG0CamZmZmZkbQM3MzMzMzBxAzczMzMzMHEDNzMzMzMwcQM3MzMzMzBxAzczMzMzMHEAzMzMzMzMdQAAAAAAAAB5AAAAAAAAAHkAAAAAAAAAeQM3MzMzMzB5AzczMzMzMHkDNzMzMzMweQDMzMzMzMx9AmpmZmZmZH0CamZmZmZkfQDMzMzMzMyBAMzMzMzMzIEAzMzMzMzMgQGZmZmZmZiBAZmZmZmZmIECamZmZmZkgQM3MzMzMzCBAzczMzMzMIEAAAAAAAAAhQAAAAAAAACFAMzMzMzMzIUAzMzMzMzMhQDMzMzMzMyFAZmZmZmZmIUDNzMzMzMwhQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAzMzMzMzMiQGZmZmZmZiJAZmZmZmZmIkBmZmZmZmYiQGZmZmZmZiJAZmZmZmZmIkCamZmZmZkiQM3MzMzMzCJAzczMzMzMIkDNzMzMzMwiQAAAAAAAACNAAAAAAAAAI0AAAAAAAAAjQGZmZmZmZiNAZmZmZmZmI0CamZmZmZkjQJqZmZmZmSNAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAZmZmZmZmJEBmZmZmZmYkQGZmZmZmZiRAZmZmZmZmJECamZmZmZkkQJqZmZmZmSRAmpmZmZmZJECamZmZmZkkQM3MzMzMzCRAAAAAAAAAJUAzMzMzMzMlQDMzMzMzMyVAMzMzMzMzJUAzMzMzMzMlQGZmZmZmZiVAZmZmZmZmJUDNzMzMzMwlQM3MzMzMzCVAMzMzMzMzJkAzMzMzMzMmQGZmZmZmZiZAmpmZmZmZJkCamZmZmZkmQJqZmZmZmSZAzczMzMzMJkAAAAAAAAAnQDMzMzMzMydAZmZmZmZmJ0BmZmZmZmYnQJqZmZmZmSdAmpmZmZmZJ0CamZmZmZknQAAAAAAAAChAMzMzMzMzKEAzMzMzMzMoQGZmZmZmZihAZmZmZmZmKECamZmZmZkoQAAAAAAAAClAAAAAAAAAKUAzMzMzMzMpQGZmZmZmZilAZmZmZmZmKUBmZmZmZmYpQGZmZmZmZilAmpmZmZmZKUCamZmZmZkpQM3MzMzMzClAzczMzMzMKUDNzMzMzMwpQM3MzMzMzClAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAmpmZmZmZKkCamZmZmZkqQJqZmZmZmSpAzczMzMzMKkAAAAAAAAArQAAAAAAAACtAMzMzMzMzK0BmZmZmZmYrQGZmZmZmZitAmpmZmZmZK0DNzMzMzMwrQM3MzMzMzCtAAAAAAAAALEAAAAAAAAAsQA=="
+      },
+      "xaxis": "x",
+      "y": {
+        "dtype": "f8",
+        "bdata": "2FwGh8j2zkDYXAaHyPbOQNhcBofI9s5AUCVfvuzqzkBQJV++7OrOQFAlX77s6s5AUCVfvuzqzkDI7bf1EN/OQD+2EC01085AP7YQLTXTzkA/thAtNdPOQD+2EC01085At35pZFnHzkAuR8KbfbvOQKYPG9Ohr85AHdhzCsajzkAd2HMKxqPOQB3YcwrGo85AHdhzCsajzkAd2HMKxqPOQJWgzEHql85ADWkleQ6MzkCEMX6wMoDOQIQxfrAygM5AhDF+sDKAzkD8+dbnVnTOQOuKiFafXM5AY1PhjcNQzkBjU+GNw1DOQGNT4Y3DUM5A2hs6xedEzkDaGzrF50TOQNobOsXnRM5A2hs6xedEzkDaGzrF50TOQFLkkvwLOc5AUuSS/As5zkBS5JL8CznOQFLkkvwLOc5AyazrMzAtzkDJrOszMC3OQDAG9tmcCc5AMAb22ZwJzkAwBvbZnAnOQDAG9tmcCc5AMAb22ZwJzkCozk4Rwf3NQJdfAIAJ5s1Al18AgAnmzUCXXwCACebNQIbwse5Rzs1AhvCx7lHOzUCG8LHuUc7NQP64CiZ2ws1AdYFjXZq2zUB1gWNdmrbNQGQSFczins1AZBIVzOKezUBkEhXM4p7NQNzabQMHk81A3NptAweTzUBTo8Y6K4fNQMtrH3JPe81Ay2sfck97zUBDNHipc2/NQEM0eKlzb81AuvzQ4JdjzUC6/NDgl2PNQLr80OCXY81AMsUpGLxXzUAhVtuGBEDNQJgeNL4oNM1AmB40vig0zUCYHjS+KDTNQJgeNL4oNM1AmB40vig0zUAQ54z1TCjNQIiv5SxxHM1AiK/lLHEczUCIr+UscRzNQIiv5SxxHM1AiK/lLHEczUD/dz5klRDNQHdAl5u5BM1Ad0CXm7kEzUB3QJebuQTNQO4I8NLd+MxA7gjw0t34zEDuCPDS3fjMQN6ZoUEm4cxA3pmhQSbhzEBVYvp4StXMQFVi+nhK1cxARPOr55K9zEBE86vnkr3MQETzq+eSvcxANIRdVtulzEA0hF1W26XMQDSEXVbbpcxANIRdVtulzECrTLaN/5nMQKtMto3/mcxAq0y2jf+ZzECrTLaN/5nMQCMVD8UjjsxAmt1n/EeCzEASpsAzbHbMQBKmwDNsdsxAEqbAM2x2zEASpsAzbHbMQIpuGWuQasxAim4Za5BqzEB5/8rZ2FLMQHn/ytnYUsxAaJB8SCE7zEBokHxIITvMQOBY1X9FL8xAVyEut2kjzEBXIS63aSPMQFchLrdpI8xAzumG7o0XzEBGst8lsgvMQL56OF3W/8tANkORlPrzy0A2Q5GU+vPLQK0L6sse6MtArQvqyx7oy0CtC+rLHujLQJycmzpn0MtAFGX0cYvEy0AUZfRxi8TLQIwtTamvuMtAjC1Nqa+4y0AD9qXg06zLQPKGV08clctA8oZXTxyVy0BqT7CGQInLQOEXCb5kfctA4RcJvmR9y0DhFwm+ZH3LQOEXCb5kfctAWeBh9Yhxy0BZ4GH1iHHLQNCouiytZctA0Ki6LK1ly0DQqLosrWXLQNCouiytZctASHETZNFZy0BIcRNk0VnLQEhxE2TRWctAr8odCj42y0Cvyh0KPjbLQK/KHQo+NstAJpN2QWIqy0CeW894hh7LQJ5bz3iGHstAFiQosKoSy0CN7IDnzgbLQI3sgOfOBstABLXZHvP6ykB8fTJWF+/KQHx9MlYX78pA9EWLjTvjykD0RYuNO+PKQA=="
+      },
+      "yaxis": "y",
+      "type": "scatter"
+    }
+  ],
+  "layout": {
+    "template": {
+      "data": {
+        "histogram2dcontour": [
+          {
+            "type": "histogram2dcontour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "choropleth": [
+          {
+            "type": "choropleth",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "histogram2d": [
+          {
+            "type": "histogram2d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmap": [
+          {
+            "type": "heatmap",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "contourcarpet": [
+          {
+            "type": "contourcarpet",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "contour": [
+          {
+            "type": "contour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "surface": [
+          {
+            "type": "surface",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "mesh3d": [
+          {
+            "type": "mesh3d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "parcoords": [
+          {
+            "type": "parcoords",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "type": "scatterpolargl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "bar": [
+          {
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            },
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "bar"
+          }
+        ],
+        "scattergeo": [
+          {
+            "type": "scattergeo",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolar": [
+          {
+            "type": "scatterpolar",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "histogram": [
+          {
+            "marker": {
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "histogram"
+          }
+        ],
+        "scattergl": [
+          {
+            "type": "scattergl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatter3d": [
+          {
+            "type": "scatter3d",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermap": [
+          {
+            "type": "scattermap",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermapbox": [
+          {
+            "type": "scattermapbox",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterternary": [
+          {
+            "type": "scatterternary",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattercarpet": [
+          {
+            "type": "scattercarpet",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ],
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
+          }
+        ],
+        "pie": [
+          {
+            "automargin": true,
+            "type": "pie"
+          }
+        ]
+      },
+      "layout": {
+        "autotypenumbers": "strict",
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "hovermode": "closest",
+        "hoverlabel": {
+          "align": "left"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "#E5ECF6",
+        "polar": {
+          "bgcolor": "#E5ECF6",
+          "angularaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "radialaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "ternary": {
+          "bgcolor": "#E5ECF6",
+          "aaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "caxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "coloraxis": {
+          "colorbar": {
+            "outlinewidth": 0,
+            "ticks": ""
+          }
+        },
+        "colorscale": {
+          "sequential": [
+            [
+              0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1,
+              "#f0f921"
+            ]
+          ],
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ]
+        },
+        "xaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "scene": {
+          "xaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "yaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "zaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          }
+        },
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
+        },
+        "geo": {
+          "bgcolor": "white",
+          "landcolor": "#E5ECF6",
+          "subunitcolor": "white",
+          "showland": true,
+          "showlakes": true,
+          "lakecolor": "white"
+        },
+        "title": {
+          "x": 0.05
+        },
+        "mapbox": {
+          "style": "light"
+        }
+      }
+    },
+    "xaxis": {
+      "anchor": "y",
+      "domain": [
+        0,
+        1
+      ],
+      "title": {
+        "text": "Escolaridad promedio (años)"
+      }
+    },
+    "yaxis": {
+      "anchor": "x",
+      "domain": [
+        0,
+        1
+      ],
+      "title": {
+        "text": "Ingreso mensual (MXN)"
+      }
+    },
+    "legend": {
+      "title": {
+        "text": "Tipo_Municipio"
+      },
+      "tracegroupgap": 0
+    },
+    "title": {
+      "text": "Relación entre escolaridad promedio e ingreso mensual"
+    },
+    "font": {
+      "family": "Arial",
+      "size": 14
+    }
+  }
+}
